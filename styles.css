@@ -14,7 +14,7 @@
     color: var(--primary) !important;
 }
 
-h1, h2, h3, h4, h5, h6, p, span, a {
+h1, h2, h3, h4, h5, h6, span, a {
     font-family: var(--Poppins) !important;
     text-decoration: none !important;
 }
@@ -32,8 +32,16 @@ canvas {
     z-index: -1;
 }
 
+.card {
+    border: none;
+}
+
 .margin-header-text {
     margin-top: -50%;
+}
+
+.scrollDash {
+    margin-bottom: -200%;
 }
 
 @media only screen and (max-width: 600px) {

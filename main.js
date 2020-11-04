@@ -48,7 +48,6 @@ window.addEventListener("scroll", function(e) {
         path.style.strokeDashoffset = pathLength;
         path.getBoundingClientRect();
         let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-        console.log(scrollPercentage);
         if (scrollPercentage > 0.10) {
             let drawLength = pathLength * (0.10 - scrollPercentage);
             path.style.strokeDashoffset = pathLength + drawLength;
@@ -59,6 +58,29 @@ window.addEventListener("scroll", function(e) {
             }
         }
     });
+
+    let projects = [
+        document.getElementById('board-off-container'),
+        document.getElementById('wave-app-container'),
+        document.getElementById('wesolve-container'),
+        document.getElementById('nissos-suites-container')
+    ]
+
+    projects.forEach((project) => {
+        let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+        // let scrollPosition = (document.documentElement.scrollTop + document.body.scrollTop) / 100;
+        console.log(project);
+        console.log("Scroll position: " + project.getBoundingClientRect().top)
+        if (project.getBoundingClientRect().top > 1200) {
+            project.style.opacity = 0;
+        } else if (project.getBoundingClientRect().top < 1200 && project.getBoundingClientRect().top >= 100) {
+            project.style.opacity = 1 - (project.getBoundingClientRect().top / 350)
+        } else if (project.getBoundingClientRect().top < 100 && project.getBoundingClientRect().top >= -100) {
+            project.style.opacity = 1
+        } else if (project.getBoundingClientRect().top < 0) {
+            project.style.opacity = 1 - (- project.getBoundingClientRect().top / 350)
+        }
+    })
 });
 
 drawArcs()
