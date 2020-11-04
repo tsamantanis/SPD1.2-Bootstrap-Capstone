@@ -21,12 +21,29 @@ h1, h2, h3, h4, h5, h6, p, span, a {
 
 h1 {
     line-height: 4rem;
+    font-size: 2.3rem;
 }
 
 canvas {
     /* background: var(--secondary); */
+    width: 100%;
     display: block;
     margin: 0;
     z-index: -1;
-    margin-bottom: -45%;
+}
+
+.margin-header-text {
+    margin-top: -50%;
+}
+
+@media only screen and (max-width: 600px) {
+    canvas {
+        width: 200vw;
+        height: 100vw;
+        margin-left: -55vw;
+    }
+
+    .margin-header-text {
+        margin-top: -100%;
+    }
 }
