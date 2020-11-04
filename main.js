@@ -38,26 +38,28 @@ function drawArcs() {
     })
 }
 
+window.addEventListener("scroll", function(e) {
+    let paths = [
+        document.getElementById('scrollDash'),
+    ]
+    paths.forEach((path) => {
+        let pathLength = path.getTotalLength();
+        path.style.strokeDasharray = pathLength + ' ' + pathLength;
+        path.style.strokeDashoffset = pathLength;
+        path.getBoundingClientRect();
+        let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+        console.log(scrollPercentage);
+        if (scrollPercentage > 0.10) {
+            let drawLength = pathLength * (0.10 - scrollPercentage);
+            path.style.strokeDashoffset = pathLength + drawLength;
+            if (scrollPercentage > 0.999999999) {
+                path.style.strokeDasharray = "none";
+            } else {
+                path.style.strokeDasharray = pathLength + ' ' + pathLength;
+            }
+        }
+    });
+});
 
-function scrollEffect() { 
-    const heightOfWindow = window.innerHeight;
-    const contentScrolled = window.pageYOffset;
-    const bodyHeight = document.body.offsetHeight;
-//     // percentage = document.querySelector("[data-scrollPercentage] .percentage")
-//     // percentageVal = document.querySelector("#percentage-value")
-
-//     // if(bodyHeight - contentScrolled <= heightOfWindow) {
-//     // percentageVal.textContent = percentage.style.width = "100%"
-//     // }
-//     // else {
-    const total = bodyHeight - heightOfWindow;
-    const got = contentScrolled;
-    percent = (got / total) * 2 * Math.PI;
-    console.log(percent);
-//     // percentageVal.textContent = percentage.style.width = percent + "%"
-//     // }
-}
-
-window.addEventListener('scroll', scrollEffect)
 drawArcs()
 
