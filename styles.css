@@ -34,24 +34,43 @@ canvas {
 
 .card {
     border: none;
+    
 }
 
 .margin-header-text {
-    margin-top: -50%;
+    margin-top: -100%;
 }
 
 .scrollDash {
     margin-bottom: -200%;
 }
 
-@media only screen and (max-width: 600px) {
-    canvas {
-        width: 200vw;
-        height: 100vw;
-        margin-left: -55vw;
-    }
+.img-skewed {
+    perspective: 1500px;
+    transform-style: preserve-3d;
+}
+  
+  
+.img-skewed-left {
+    perspective-origin: left center;
+}
+  
+.img-skewed-left .img-skewed-item {
+    transform: rotateY(-35deg) rotateX(15deg);
+    backface-visibility: hidden;
+}  
+.img-skewed-right {
+    perspective-origin: right center;
+}
 
+.img-skewed-right .img-skewed-item {
+    transform: rotateY(35deg) rotateX(15deg);
+    backface-visibility: hidden;
+}
+
+
+@media only screen and (max-width: 600px) {
     .margin-header-text {
-        margin-top: -100%;
+        margin-top: -90%;
     }
 }

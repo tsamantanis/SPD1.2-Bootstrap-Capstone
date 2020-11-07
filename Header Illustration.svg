@@ -1,0 +1,116 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect width="1440" height="1024" rx="20" fill="white"/>
+<path d="M1413.77 783.525C1263.79 1166.59 831.671 1355.55 448.604 1205.56" stroke="#CBF3F0" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M1003.84 713.266C1115.11 556.513 1078.24 339.235 921.488 227.961C764.736 116.687 547.457 153.555 436.183 310.308" stroke="#FF9F1C" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 720 512" to="360 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M103.356 694.044C2.84362 353.617 197.333 -3.83555 537.76 -104.348" stroke="#CBF3F0" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M522.22 35.3947C258.984 144.682 134.184 446.673 243.471 709.909C352.759 973.145 654.75 1097.95 917.986 988.658" stroke="#CBF3F0" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 720 512" to="360 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M1304.57 849.5C1118.17 1172.35 705.348 1282.96 382.5 1096.57C59.6525 910.171 -50.9633 497.347 135.433 174.5" stroke="#FF9F1C" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M1314 512C1314 840.057 1048.06 1106 720 1106C391.943 1106 126 840.057 126 512" stroke="#FF9F1C" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 720 512" to="360 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M1411.09 911C1631.45 529.322 1500.68 41.2732 1119 -179.088C737.322 -399.45 249.273 -268.678 28.9117 113" stroke="#FF9F1C" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M1411 512C1411 130.371 1101.63 -179 720 -179" stroke="#2EC4B6" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 720 512" to="360 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M1439 512C1439 909.093 1117.09 1231 720 1231C322.907 1231 1 909.093 1 512" stroke="#FF9F1C" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M1115.34 278.793C986.546 60.4517 705.135 -12.1389 486.793 116.658C268.452 245.454 195.861 526.865 324.658 745.207" stroke="#FF9F1C" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 720 512" to="360 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M1051.82 1074.51C741.151 1257.77 340.746 1154.48 157.489 843.817C-25.769 533.151 77.5162 132.746 388.183 -50.5112" stroke="#FFBF69" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M908.224 831.086C731.998 935.04 504.867 876.451 400.914 700.224C296.96 523.998 355.549 296.867 531.776 192.914" stroke="#2EC4B6" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 720 512" to="360 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M1363.24 946.626C1123.2 1301.88 640.625 1395.28 285.374 1155.24C-69.8769 915.201 -163.276 432.625 76.7615 77.3739" stroke="#2EC4B6" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M1171.34 245.832C1318.44 495.191 1235.53 816.578 986.174 963.671" stroke="#2EC4B6" stroke-width="7.07495" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M929.295 388.54C997.481 504.13 959.051 653.11 843.46 721.295C727.87 789.481 578.89 751.051 510.705 635.46" stroke="#FF9F1C" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M868.191 763.219C729.446 845.063 550.624 798.935 468.781 660.191C386.937 521.446 433.065 342.624 571.809 260.781" stroke="#2EC4B6" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<circle cx="720" cy="512" r="841" stroke="#FF9F1C" stroke-width="5" stroke-linecap="round"/>
+<path d="M1439 512C1439 114.907 1117.09 -207 720 -207C322.907 -207 1 114.907 1 512" stroke="#2EC4B6" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M720 1078C407.407 1078 154 824.593 154 512C154 199.407 407.407 -54 720 -54" stroke="#CBF3F0" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M720 1371C245.587 1371 -139 986.413 -139 512C-139 37.5874 245.587 -347 720 -347" stroke="#2EC4B6" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M869.08 -44.3732C1176.36 37.9613 1358.71 353.803 1276.37 661.08C1194.04 968.356 878.197 1150.71 570.92 1068.37" stroke="#FFBF69" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M1487 512C1487 88.3976 1143.6 -255 720 -255C296.398 -255 -47 88.3976 -47 512" stroke="#FFBF69" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M230.014 283.31C355.978 12.949 677.263 -104.108 947.625 21.8564C1217.99 147.821 1335.04 469.106 1209.08 739.468" stroke="#FF9F1C" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M855.75 746.76C985.128 672.063 1029.46 506.628 954.76 377.25C880.063 247.872 714.628 203.544 585.25 278.24" stroke="#FF9F1C" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M1131 512.5C1131 739.213 947.213 923 720.5 923C493.787 923 310 739.213 310 512.5" stroke="#CBF3F0" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M965.053 1044.97C670.477 1180.4 321.889 1051.38 186.461 756.807" stroke="#FFBF69" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M171.32 -26.557C468.956 -329.782 956.051 -334.313 1259.28 -36.6766" stroke="#FFBF69" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M856.164 808.164C692.669 883.329 499.198 811.723 424.033 648.229C348.868 484.735 420.473 291.263 583.967 216.098" stroke="#FFBF69" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M634.374 326.34C736.892 279.208 858.208 324.107 905.339 426.626" stroke="#FFBF69" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M319.644 329.272C420.677 108.218 681.779 10.921 902.833 111.953C1123.89 212.985 1221.18 474.088 1120.15 695.142" stroke="#2EC4B6" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M548.299 -82.4627C876.613 -177.083 1219.47 12.3626 1314.09 340.677C1408.71 668.99 1219.26 1011.85 890.951 1106.47" stroke="#2EC4B6" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M719.973 1202.56C1101.52 1202.62 1410.88 893.37 1410.94 511.823" stroke="#2EC4B6" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M719.731 995.133C452.918 995.088 236.66 778.757 236.705 511.945C236.75 245.132 453.08 28.8738 719.893 28.9187" stroke="#2EC4B6" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 720 512" to="0 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M913.069 378.58C985.487 483.947 957.606 628.875 850.795 702.285" stroke="#2EC4B6" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 720 512" to="360 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M1091.89 -226.589C1494.25 -23.7892 1653.77 471.255 1448.19 879.124C1242.62 1286.99 749.788 1453.23 347.432 1250.43" stroke="#2EC4B6" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 720 512" to="360 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+<path d="M1038.71 292.282C1158.08 465.964 1112.12 704.853 936.059 825.858C759.999 946.862 520.506 904.159 401.137 730.478" stroke="#2EC4B6" stroke-width="5" stroke-linecap="round">
+    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 720 512" to="360 720 512" dur="20s" additive="sum" repeatCount="indefinite" />
+</path>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="1440" height="1024" rx="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>
