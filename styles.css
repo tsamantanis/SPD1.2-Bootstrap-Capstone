@@ -28,10 +28,6 @@ h1, h2, h3, h4, h5, h6, span, a {
     color: var(--primary) !important;
 }
 
-.navbar-toggler {
-    border: 2px solid var(--primary);
-}
-
 .navbar-toggler svg {
     color: var(--primary) !important;
 }
@@ -42,9 +38,9 @@ h1, h2, h3, h4, h5, h6, span, a {
     border-radius: 10px;
 }
 
-.neomorphic:hover {
+.neomorphic:hover, .neomorphic:focus, .neomorphic:active, .neomorphic:target {
     box-shadow: inset 1.5px 1.5px 3px 0 rgba(0, 0, 0, 0.2),
-        inset -1.5px -1.5px 3px 0 rgba(255, 255, 255, 0.5);
+        inset -1.5px -1.5px 3px 0 rgba(255, 255, 255, 0.5) !important;
 }
 
 .neomorphic--disabled {
