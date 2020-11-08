@@ -1,76 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 :root {
+    --gray: #93a5be;
+    --gray-dark: #525480;
     --primary: #FFA100;
     --secondary: #2EC4B6;
     --dark: #221D23;
+}
 
-    --primary-desat: rgba(255, 159, 28, 0.2);
-    --secondary-desat: rgba(61, 214, 208, 0.2);
-
-    --Poppins: "Poppins", sans-serif;
+h1, h2, h3, h4, h5, h6, span, a {
+    font-family: "Poppins", sans-serif !important;
+    text-decoration: none !important;
 }
 
 .text-primary {
     color: var(--primary) !important;
 }
 
-h1, h2, h3, h4, h5, h6, span, a {
-    font-family: var(--Poppins) !important;
-    text-decoration: none !important;
+.text-primary:hover {
+    color: var(--primary) !important;
 }
 
-h1 {
-    line-height: 4rem;
-    font-size: 2.3rem;
+.bg-primary {
+    background-color: var(--primary) !important;
 }
 
-canvas {
-    /* background: var(--secondary); */
-    width: 100%;
-    display: block;
-    margin: 0;
-    z-index: -1;
+.navbar-brand:hover {
+    color: var(--primary) !important;
 }
 
-.card {
-    border: none;
-    
+.navbar-toggler {
+    border: 2px solid var(--primary);
 }
 
-.margin-header-text {
-    margin-top: -100%;
+.navbar-toggler svg {
+    color: var(--primary) !important;
 }
 
-.scrollDash {
-    margin-bottom: -200%;
+.neomorphic {
+    box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.2),
+        -3px -3px 6px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
 }
 
-.img-skewed {
-    perspective: 1500px;
-    transform-style: preserve-3d;
-}
-  
-  
-.img-skewed-left {
-    perspective-origin: left center;
-}
-  
-.img-skewed-left .img-skewed-item {
-    transform: rotateY(-35deg) rotateX(15deg);
-    backface-visibility: hidden;
-}  
-.img-skewed-right {
-    perspective-origin: right center;
+.neomorphic:hover {
+    box-shadow: inset 1.5px 1.5px 3px 0 rgba(0, 0, 0, 0.2),
+        inset -1.5px -1.5px 3px 0 rgba(255, 255, 255, 0.5);
 }
 
-.img-skewed-right .img-skewed-item {
-    transform: rotateY(35deg) rotateX(15deg);
-    backface-visibility: hidden;
-}
-
-
-@media only screen and (max-width: 600px) {
-    .margin-header-text {
-        margin-top: -90%;
-    }
+.neomorphic--disabled {
+    border-radius: 10px;
+    box-shadow: inset 1.5px 1.5px 3px 0 rgba(0, 0, 0, 0.2),
+        inset -1.5px -1.5px 3px 0 rgba(255, 255, 255, 0.5);
 }
