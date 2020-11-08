@@ -8,13 +8,15 @@ window.addEventListener("scroll", function(e) {
         path.style.strokeDashoffset = pathLength;
         path.getBoundingClientRect();
         let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-        if (scrollPercentage > 0.10) {
-            let drawLength = pathLength * (0.10 - scrollPercentage);
+        const threshold = window.screen.width > 800 ? 0.10 : 0;
+        const speed = window.screen.width > 800 ? 1.1 : 3;
+        if (scrollPercentage + threshold > 0) {
+            let drawLength = pathLength * (threshold - scrollPercentage) * speed;
             path.style.strokeDashoffset = pathLength + drawLength;
             if (scrollPercentage > 0.999999999) {
                 path.style.strokeDasharray = "none";
             } else {
-                path.style.strokeDasharray = pathLength + ' ' + pathLength;
+                path.style.strokeDasharray = pathLength + ' ' + (pathLength * speed);
             }
         }
     });
