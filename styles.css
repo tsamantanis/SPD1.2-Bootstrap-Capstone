@@ -29,6 +29,10 @@ a:hover {
     color: var(--primary) !important;
 }
 
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
 .text-gray {
     color: var(--gray) !important;
 }
@@ -73,6 +77,7 @@ a:hover {
     box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.2),
         -3px -3px 6px 0 rgba(255, 255, 255, 0.5);
     border-radius: 5px;
+    transition: 0.3s ease;
 }
 
 .neomorphic:hover, .neomorphic:focus, .neomorphic:active, .neomorphic:target {
@@ -101,15 +106,6 @@ a:hover {
     }
 }
 
-@media only screen and (max-width: 576px) {
-    .display-1 {
-        font-size: 2rem;
-    }
-    .header {
-        min-height: 30vh;
-    }
-}
-
 .card {
     border: none;
 }
@@ -117,4 +113,28 @@ a:hover {
 .wh-100 {
     min-width: 100% !important;
     min-height: 100% !important;
+}
+
+.cta {
+    background-image: url("Stormtrooper.jpg");
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsiveness Mobile */
+@media only screen and (max-width: 576px) {
+    .display-1 {
+        font-size: 2rem;
+    }
+    .header {
+        min-height: 30vh;
+    }
+
+    .cta {
+        min-height: 40vh;
+        background-position: center;
+    }
 }
