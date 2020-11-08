@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5, h6, span, a {
     text-decoration: none !important;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 .text-primary {
     color: var(--primary) !important;
 }
@@ -108,4 +112,9 @@ h1, h2, h3, h4, h5, h6, span, a {
 
 .card {
     border: none;
+}
+
+.wh-100 {
+    min-width: 100% !important;
+    min-height: 100% !important;
 }
