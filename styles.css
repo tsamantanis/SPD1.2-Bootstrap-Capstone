@@ -5,6 +5,11 @@
     --primary: #FFA100;
     --secondary: #2EC4B6;
     --dark: #221D23;
+
+    --primary-desat: rgba(255, 159, 28, 0.2);
+    --secondary-desat: rgba(61, 214, 208, 0.2);
+    --tertiary-desat: rgba(112, 0, 255, 0.2);
+    --quartiary-desat: rgba(255, 62, 214, 0.2);
 }
 
 h1, h2, h3, h4, h5, h6, span, a {
@@ -30,6 +35,22 @@ h1, h2, h3, h4, h5, h6, span, a {
 
 .bg-primary {
     background-color: var(--primary) !important;
+}
+
+.bg-primary-desat {
+    background-color: var(--primary-desat) !important;
+}
+
+.bg-secondary-desat {
+    background-color: var(--secondary-desat) !important;
+}
+
+.bg-tertiary-desat {
+    background-color: var(--tertiary-desat) !important;
+}
+
+.bg-quartiary-desat {
+    background-color: var(--quartiary-desat) !important;
 }
 
 .bg-gray {
@@ -64,4 +85,27 @@ h1, h2, h3, h4, h5, h6, span, a {
 .header {
     background-image: url("Header_Illustration.svg");
     background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .display-1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .display-1 {
+        font-size: 2rem;
+    }
+    .header {
+        min-height: 30vh;
+    }
+}
+
+.card {
+    border: none;
 }
