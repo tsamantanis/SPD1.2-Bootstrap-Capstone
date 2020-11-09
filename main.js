@@ -6,3 +6,7 @@ window.addEventListener("scroll", function(e) {
         document.getElementById("navbar").classList.remove("sticky");
     }
 }); 
+
+$(document).ready(function() {
+    jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 1000 
+});
