@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 :root {
-    --gray: #93a5be;
+    --gray: #EAEBEF;
     --gray-dark: #525480;
     --primary: #FFA100;
     --secondary: #2EC4B6;
@@ -10,6 +10,8 @@
     --secondary-desat: rgba(61, 214, 208, 0.2);
     --tertiary-desat: rgba(112, 0, 255, 0.2);
     --quartiary-desat: rgba(255, 62, 214, 0.2);
+
+    --gradient-combo: -webkit-linear-gradient(200deg, #FF9F1C 0%, #EB00FF 28.99%, #7E19FF 60.36%, #2EC4B6 91.25%);
 }
 
 h1, h2, h3, h4, h5, h6, span, a {
@@ -39,6 +41,13 @@ a:hover {
 
 .text-gray-dark {
     color: var(--gray-dark) !important;
+}
+
+.text-gradient-combo {
+    background: var(--gradient-combo) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
 }
 
 .bg-primary {
@@ -111,8 +120,9 @@ a:hover {
 }
 
 .wh-100 {
-    min-width: 100% !important;
-    min-height: 100% !important;
+    min-height: 70vh !important;
+    /* width: 100%;
+    height: 100% !important; */
 }
 
 .cta {
