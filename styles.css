@@ -187,3 +187,14 @@ input {
 textarea {
     padding: 10px;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.sticky .nav-link {
+    background: var(--gray) !important;
+}
